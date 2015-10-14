@@ -1,0 +1,33 @@
+/**
+ * auth: nightc;
+ * url: git.oschina.net/cnjack/qrcode;
+ * e-mail: admin.nightc.com;
+ */
+/* content */
+.qrcode-content{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.qrcode-qrstring {
+	width: 54%;
+	height: 270px;
+	float: left;
+}
+.qrcode-show {
+	width: 270px;
+	height: 270px;
+	float: left;
+	margin-left: 60px;
+	border:1px solid #676767;
+}
+.qrcode-help {
+	display: block;
+	width: 120px;
+	height: 70px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100px;
+	color: #676767;
+}
