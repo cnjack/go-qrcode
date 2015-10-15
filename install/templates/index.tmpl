@@ -14,7 +14,7 @@
 			    </div>
 			    <div class="collapse navbar-collapse">
 			    	<ul class="nav navbar-nav navbar-right">
-			    		<li><a href="#">下载</a></li>
+			    		<li><a href="http://git.oschina.net/cnjack/qrcode" target="_blank">下载Code</a></li>
 			    		<li><a href="#">捐助我</a></li>
 			    	</ul>
 			    </div>
@@ -26,16 +26,24 @@
 						左侧输入内容<br />
 						生成二维码
 					</span>
-					<div class="loading"></div>
+					<div class="qrcode-loading"></div>
+					<img id="qrcode-qrcode" class="qrcode-qrcode" alt="右击另存为">
 				</div>
 				<div class="qrcode-qrstring">
 					<textarea id="qrstring" placeholder="请输入文字内容，支持普通文字和网址"></textarea>
-					<div class="qrcode-create">生成二维码</div>
+					<div class="qrcode-error" id="qrcode-error"></div>
+					<div id="qrcode-create" class="qrcode-create">生成二维码</div>
 				</div>
+				<div style="clear:both"></div>
 			</div>
 		</div>
 		<script type="text/javascript" src="/jquery/jquery.min.js"></script>
 		<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="/static/js/app.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			app.init()
+		})
+		</script>
 	</body>
 </html>
