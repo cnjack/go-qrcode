@@ -11,6 +11,7 @@ app.init = function() {
 			return
 		}
 		$(".qrcode-help").hide()
+		$("#qrcode-qrcode").css("visibility", "hidden")
 		$(".qrcode-loading").show()
 		$("#qrcode-qrcode").attr("src", "/api?qr_string="+qr_string)
 		$("#qrcode-qrcode").show()
