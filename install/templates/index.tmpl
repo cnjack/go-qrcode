@@ -41,9 +41,16 @@
 		<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="/static/js/app.js"></script>
 		<script type="text/javascript">
-		$(document).ready(function() {
-			app.init()
-		})
+			$(document).ready(function() {
+				app.init()
+			})
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "//hm.baidu.com/hm.js?d4abaaef8f3b9b46b61eba083d896055";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
 		</script>
 	</body>
 </html>
