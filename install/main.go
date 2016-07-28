@@ -1,7 +1,7 @@
 package main
 
 import (
-	"git.oschina.net/cnjack/qrcode"
+	qrcode "github.com/cnjack/go-qrcode"
 )
 
 func main() {
