@@ -1,7 +1,7 @@
 package qrcode
 
 import (
-	"github.com/cnjack/qrcode/Api"
+	"github.com/cnjack/go-qrcode/Api"
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/render"
 	"github.com/martini-contrib/throttle"
