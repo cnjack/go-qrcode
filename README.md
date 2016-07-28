@@ -12,7 +12,7 @@ Jquery
 [go-qrcode](http://github.com/skip2/go-qrcode)  
 ...  
 ## Design 
-![design ](http://github.com/cnjack/go-qrcode/raw/master/doc/index.png?dir=0&filepath=doc%2Findex.png)  
+![design ](https://github.com/cnjack/go-qrcode/blob/master/doc/qrcode.rp?raw=true)  
 ## install  
 go get github.com/cnjack/go-qrcode  
 cd %GOPATH%/src/github.com/cnjack/go-qrcode(win) cd $GOPATH/src/github.com/cnjack/go-qrcode(mac or linux)  
